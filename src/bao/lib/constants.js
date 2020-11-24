@@ -36,6 +36,12 @@ export const contractAddresses = {
   },
   xBao: {
     97: '0x2B1c3cD195B5b6c9F6fCB0780Dc646e12d3F9541'
+  },
+  BAOSALE: {
+    97: '0xCA54e2e71236D6B2F97C9692B405333440255b59'
+  },
+  BAOSALECROWSALE: {
+    97: '0x6eAed31E7E5A415B2Ca9D1478C5773B95D15963B'
   }
 }
 

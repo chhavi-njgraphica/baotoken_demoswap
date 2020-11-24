@@ -16,8 +16,26 @@ const GAS_LIMIT = {
 export const getMasterChefAddress = (bao) => {
   return bao && bao.masterChefAddress
 }
+export const getbaoSaleCrowSale = (bao) => {
+  return bao && bao.baoSaleCrowSale
+}
 export const getBaoAddress = (bao) => {
   return bao && bao.baoAddress
+}
+export const getBaoSALEAddress = (bao) => {
+  return bao && bao.baoSaleAddress
+}
+export const getisAllowed = async (baoSaleCrowSale,account) => {
+  return await baoSaleCrowSale.methods.getAllowStatus(account).call()
+}
+export const Buysale = async (baoSaleCrowSale, amount, account) => {
+  return baoSaleCrowSale.methods
+    .buyTokens(account)
+    .send({ from: account,value:amount*1e18 })
+    .on('transactionHash', (tx) => {
+      console.log(tx)
+      return tx.transactionHash
+    })
 }
 export const getWethContract = (bao) => {
   return bao && bao.contracts && bao.contracts.weth
@@ -32,6 +50,10 @@ export const getBaoContract = (bao) => {
 
 export const getXBaoStakingContract = (bao) => {
   return bao && bao.contracts && bao.contracts.xBaoStaking
+}
+
+export const getBaoSALEContract = (bao) => {
+  return bao && bao.contracts && bao.contracts.BaoCrowSale
 }
 
 export const getFarms = (bao) => {

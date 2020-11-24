@@ -1,0 +1,11 @@
+
+src/js/metacoin-config.js
+node_modules
+build
+Solution
+build
+contracts1
+contracts11
+Solution
+.env
+* .DS_Store

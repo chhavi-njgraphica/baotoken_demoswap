@@ -14,6 +14,9 @@ const Nav: React.FC = () => {
       <StyledLink exact activeClassName="active" to="/staking">
         Staking
       </StyledLink>
+      <StyledLink exact activeClassName="active" to="/banking">
+        Banking
+      </StyledLink>
       <StyledAbsoluteLink
         href="https://exchange.baoswapclassic.org"
         target="_blank"

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bc1a2d16-fd21-4bf4-aa21-acd6347fc4e6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../4d/.idea/4d.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abcpiano/.idea/abcpiano.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bright-amp/.idea/bright-amp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bright-begins/.idea/bright-begins.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bright/.idea/bright.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bright/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buy_car-old/.idea/buy_car.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cashier/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cashier/.idea/cashier.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cashier/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cashier/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cashier/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casino/.idea/casino.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../digosolution-ar/.idea/digosolution.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../digosolution/.idea/digosolution.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../digosolution/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../digosolution/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../digosolutionapp/.idea/digosolution-app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../digosolutionapp/table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ibankj-design/.idea/ibankj.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ibankj/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../newsletter/.idea/newsletter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../newsletter/2/.idea/2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../newsletter/5/.idea/5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../newsletter/5/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../newsletter/boston/.idea/boston.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nj/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../njexcel/.idea/njexcel.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../particles/.idea/particles.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../petco-splash/.idea/petco-splash.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quiz/.idea/quiz-new.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ruskr-design/.idea/ruskr.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smm-design/.idea/smm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../startelerad/.idea/startelerad.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../techiebattle/.idea/techiebattle.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../theme-test/wp-content/plugins/wp-facebook-login/.idea/trunk.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../viago/.idea/viago.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kYLgfYor6pfvDA9cVkhq7z5vCa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../baotoken_demoswap" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="E:\laragon\www\projects\taximaster\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\laragon\www\projects\taximaster\src\views\Taxi\components" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\laragon\www\projects\taximaster\src" />
+      <recent name="E:\laragon\www\projects\taximaster\src\views\Taxi\components" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc1a2d16-fd21-4bf4-aa21-acd6347fc4e6" name="Default Changelist" comment="" />
+      <created>1605872690979</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605872690979</updated>
+      <workItem from="1605872691998" duration="667000" />
+      <workItem from="1605935426691" duration="4624000" />
+      <workItem from="1605946587596" duration="2309000" />
+      <workItem from="1605953390529" duration="3942000" />
+      <workItem from="1606106687597" duration="5765000" />
+      <workItem from="1606112959170" duration="19074000" />
+      <workItem from="1606191762910" duration="10849000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1606200449073">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606200449073" />
+  </component>
+</project>

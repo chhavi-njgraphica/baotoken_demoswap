@@ -40,6 +40,9 @@ export class Bao {
     this.baoAddress = contractAddresses.bao[networkId]
     this.masterChefAddress = contractAddresses.masterChef[networkId]
     this.wethAddress = contractAddresses.weth[networkId]
+    this.baoSaleAddress = contractAddresses.BAOSALE[networkId]
+    this.baoSaleCrowSale = contractAddresses.BAOSALECROWSALE[networkId]
+
   }
 
   async resetEVM() {

@@ -5,6 +5,9 @@ import XBaoAbi from './abi/xbao.json'
 import BaoAbi from './abi/bao.json'
 import UNIV2PairAbi from './abi/uni_v2_lp.json'
 import WETHAbi from './abi/weth.json'
+
+import BaoSale from './abi/baotoken.json'
+import BaoCrowSale from './abi/baocrowsale.json'
 import {
   contractAddresses,
   SUBTRACT_GAS_LIMIT,
@@ -26,6 +29,8 @@ export class Contracts {
     this.masterChef = new this.web3.eth.Contract(MasterChefAbi)
     this.xBaoStaking = new this.web3.eth.Contract(XBaoAbi)
     this.weth = new this.web3.eth.Contract(WETHAbi)
+    this.BaoSale = new this.web3.eth.Contract(BaoSale)
+    this.BaoCrowSale = new this.web3.eth.Contract(BaoCrowSale)
 
     this.pools = supportedPools.map((pool) =>
       Object.assign(pool, {
@@ -51,6 +56,8 @@ export class Contracts {
     setProvider(this.masterChef, contractAddresses.masterChef[networkId])
     setProvider(this.xBaoStaking, contractAddresses.xBao[networkId])
     setProvider(this.weth, contractAddresses.weth[networkId])
+    setProvider(this.BaoSale, contractAddresses.BAOSALE[networkId])
+    setProvider(this.BaoCrowSale, contractAddresses.BAOSALECROWSALE[networkId])
 
     this.pools.forEach(
       ({ lpContract, lpAddress, tokenContract, tokenAddress }) => {

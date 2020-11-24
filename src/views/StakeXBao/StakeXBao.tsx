@@ -42,7 +42,6 @@ const StakeXBao: React.FC = () => {
 
 
   const lpContract = useMemo(() => {
-    debugger
     return getContract(ethereum as provider, tokenAddress)
   }, [ethereum, tokenAddress])
 

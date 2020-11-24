@@ -14,6 +14,7 @@ import theme from './theme'
 import Farms from './views/Farms'
 import Home from './views/Home'
 import Staking from "./views/Staking";
+import Banking from "./views/Banking";
 
 const App: React.FC = () => {
   const [mobileMenu, setMobileMenu] = useState(false)
@@ -41,6 +42,9 @@ const App: React.FC = () => {
           <Route path="/staking">
             <Staking />
           </Route>
+          <Route path="/banking">
+            <Banking />
+          </Route>
         </Switch>
       </Router>
       <Disclaimer />
@@ -54,7 +58,8 @@ const Providers: React.FC = ({ children }) => {
       <UseWalletProvider
         chainId={97}
         connectors={{
-          walletconnect: { rpcUrl: 'https://bsc-dataseed.binance.org' },
+          // walletconnect: { rpcUrl: 'https://bsc-dataseed.binance.org' },
+          walletconnect: { rpcUrl: 'https://data-seed-prebsc-1-s1.binance.org:8545/' },
         }}
       >
         <BaoProvider>
