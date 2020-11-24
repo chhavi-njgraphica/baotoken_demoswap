@@ -100,23 +100,19 @@ interface StyledButtonProps {
 }
 
 const StyledButton = styled.button<StyledButtonProps>`
-  align-items: center;
-  background-color: ${props => props.theme.color.grey[200]};
-  border: 0;
-  border-radius: 12px;
-  box-shadow: ${props => props.boxShadow};
-  color: ${props => !props.disabled ? props.color : `${props.color}55`};
-  cursor: pointer;
-  display: flex;
-  font-size: ${props => props.fontSize}px;
-  font-weight: 700;
-  height: ${props => props.size}px;
-  justify-content: center;
-  outline: none;
-  padding-left: ${props => props.padding}px;
-  padding-right: ${props => props.padding}px;
+  background: linear-gradient(180deg, #FFF19D 0%, #FCE352 100%), #FCE352;
+  border-radius: 20px;
+  font-family: Leo Rounded;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 14px;
+  text-transform: lowercase;  
+  color: #333333;
+  padding: 15px;
+  border-width: 0;
   pointer-events: ${props => !props.disabled ? undefined : 'none'};
-  width: 100%;
+  width: 200px;
   &:hover {
     background-color: ${props => props.theme.color.grey[100]};
   }

@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useState } from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import { ThemeProvider } from 'styled-components'
 import { UseWalletProvider } from 'use-wallet'
-import DisclaimerModal from './components/DisclaimerModal'
+// import DisclaimerModal from './components/DisclaimerModal'
 import MobileMenu from './components/MobileMenu'
 import TopBar from './components/TopBar'
 import FarmsProvider from './contexts/Farms'
@@ -12,6 +12,7 @@ import BaoProvider from './contexts/BaoProvider'
 import useModal from './hooks/useModal'
 import theme from './theme'
 import Farms from './views/Farms'
+import Taxi from './views/Taxi'
 import Home from './views/Home'
 import Staking from "./views/Staking";
 import Banking from "./views/Banking";
@@ -44,6 +45,9 @@ const App: React.FC = () => {
           </Route>
           <Route path="/banking">
             <Banking />
+          </Route>
+          <Route path="/taxi">
+            <Taxi />
           </Route>
         </Switch>
       </Router>
@@ -79,14 +83,14 @@ const Disclaimer: React.FC = () => {
     localStorage.setItem('disclaimer', 'seen')
   }, [])
 
-  const [onPresentDisclaimerModal] = useModal(
+  /*const [onPresentDisclaimerModal] = useModal(
     <DisclaimerModal onConfirm={markSeen} />,
-  )
+  )*/
 
   useEffect(() => {
     const seenDisclaimer = false //localStorage.getItem('disclaimer')
     if (!seenDisclaimer) {
-      onPresentDisclaimerModal()
+      // onPresentDisclaimerModal()
     }
   }, [])
 

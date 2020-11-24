@@ -1,11 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
-import Footer from '../Footer'
+// import Footer from '../Footer'
 
 const Page: React.FC = ({ children }) => (
   <StyledPage>
     <StyledMain>{children}</StyledMain>
-    <Footer />
+    {/*<Footer />*/}
   </StyledPage>
 )
 

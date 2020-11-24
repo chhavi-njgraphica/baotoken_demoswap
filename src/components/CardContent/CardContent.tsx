@@ -6,10 +6,10 @@ const CardContent: React.FC = ({ children }) => (
 )
 
 const StyledCardContent = styled.div`
-  display: flex;
+  display: flex !important;
   flex: 1;
   flex-direction: column;
-  padding: ${(props) => props.theme.spacing[3]}px;
+  padding: 30px;
 `
 
 export default CardContent
