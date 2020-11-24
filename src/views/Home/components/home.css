@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'ToyBox';
+    src: url(../../../fonts/toybox/ToyBox.ttf);
+    src: url(../../../fonts/toybox/ToyBox.otf);
+}
+@font-face {
+    font-family: 'Noto Sans';
+    src: url(../../../fonts/notosans/NotoSans-Regular.ttf);
+}
+@font-face {
+    font-family: 'Leo Rounded';
+    src: url(../../../fonts/leorounded/LeoRounded-Bold.ttf);
+}
+
+.taxiBalanceHeading{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    color: #333333;
+    margin: 0;
+}
+.lockedText {
+    font-family: ToyBox;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    color: #F4C82B;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+.footerText {
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    color: #333333;
+}
+.lockedTaxiStaked {
+    font-family: ToyBox;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F4C82B;
+}

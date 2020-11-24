@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'ToyBox';
+    src: url(../../../fonts/toybox/ToyBox.ttf);
+    src: url(../../../fonts/toybox/ToyBox.otf);
+}
+@font-face {
+    font-family: 'Noto Sans';
+    src: url(../../../fonts/notosans/NotoSans-Regular.ttf);
+}
+@font-face {
+    font-family: 'Leo Rounded';
+    src: url(../../../fonts/leorounded/LeoRounded-Bold.ttf);
+}
+.textField {
+    border: 1px solid #F4C82B;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+}
+.sc-iqAbSa {
+    width:300px !important;
+}
+.sc-crzoUp {
+    background: #fff !important;
+}
+.cStNTF {
+    flex-basis: 100% !important;
+}
+.bBbzoY {
+    padding: 0 !important;
+}
+.sc-fFSRdu {
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #F4C82B !important;
+    justify-content: left !important;
+}
+.tokenHeading {
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    color: #F4C82B;
+}
+.jDZbDf {
+    background: #fff !important;
+}
+.sc-uxeQQ {
+    display: block !important;
+}
+.tokenList {
+    list-style: none;
+    padding-left: 10px;
+}
+.tokenList li {
+    display: block;
+    padding-top: 15px;
+}
+.tokenList li:hover {
+    background: #f3f3f3;
+    padding-top: 15px;
+}
+.tokenList li span {
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    display: inline-flex;
+    align-items: center;
+    color: #333333;
+    padding-left: 10px;
+}
+.pricePoolHeading {
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    color: #333333;
+    padding: 15px 15px 15px 20px;
+}
+.poolContent {
+    position: relative;
+    background: #fff;
+    border-radius: 20px;
+    width: auto;
+    height: auto;
+    margin-bottom: 30px;
+    bottom: 25px;
+    display: inline-flex;
+    border: 1px solid #f3f3f3;
+}
+.poolContentHeading {
+    font-family: ToyBox;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFA800;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.poolContentDesc {
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #333333;
+    margin: 0;
+}
+.dropDownContent {
+    display: -webkit-inline-box;
+}
